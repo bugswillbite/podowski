@@ -22,6 +22,7 @@ header
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     margin: 0 auto;
+    z-index: 1000;
 }
 div.margin
 {
@@ -39,7 +40,7 @@ footer div.margin
 div.margin.left
 {
     width: 5px;
-    margin-left: 0px;
+    margin-left: -15px;
 }
 div.margin.left.bottom
 {
@@ -412,6 +413,42 @@ main
     min-width: 0;
 }
 
+/* Square row styling for alternating rows */
+.image-row.square-row img
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 1px solid #333;
+    flex: none;
+    margin: 2px;
+}
+
+.image-row.square-row
+{
+    justify-content: center;
+}
+
+/* Trinkets Gallery Cube Styling */
+.trinkets-gallery .image-row img
+{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 1px solid #333;
+    flex: none;
+    margin: 2px;
+}
+
+.trinkets-gallery .image-row
+{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
 /* Square Buttons */
 .square-buttons
 {
@@ -534,6 +571,130 @@ main
     opacity: 1;
 }
 
+/* Subsection Gallery Hover Styles */
+.subsection-gallery .subsection-item
+{
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: -5px;
+}
+
+.subsection-gallery .subsection-item:hover
+{
+    transform: scale(1.02);
+}
+
+.subsection-gallery .subsection-item img
+{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #333;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.subsection-gallery .subsection-item:hover img
+{
+    filter: brightness(0.4) blur(1px);
+    transform: scale(1.05);
+}
+
+/* Clickable subsection items without links */
+.subsection-gallery .subsection-item[data-project]
+{
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: -5px;
+}
+
+.subsection-gallery .subsection-item[data-project]:hover
+{
+    transform: scale(1.02);
+}
+
+.subsection-gallery .subsection-item[data-project] img
+{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #333;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.subsection-gallery .subsection-item[data-project]:hover img
+{
+    filter: brightness(0.4) blur(1px);
+    transform: scale(1.05);
+}
+
+.subsection-overlay-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    max-width: 90%;
+}
+
+.subsection-gallery .subsection-item:hover .subsection-overlay-text
+{
+    opacity: 1;
+}
+
+/* Game Development Vertical Layout */
+.game-dev-vertical .full-width-row
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.game-dev-vertical .full-width-item
+{
+    width: 100%;
+    height: 180px;
+}
+
+.game-dev-vertical .full-width-item img
+{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid #333;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.game-dev-vertical .full-width-item:hover img
+{
+    filter: brightness(0.4) blur(1px);
+    transform: scale(1.02);
+}
+
+
+/* 3D Vertical Layout */
+.image-gallery.subsection-gallery.threed-horiz img
+{
+    width: 100%;
+    height: 200px;
+}
+
+
 /* Text Content Styles */
 .text-content
 {
@@ -544,6 +705,7 @@ main
     align-items: flex-start;
     padding: 20px;
     margin-left: -20px;
+    flex-direction: column; /* Ensure vertical stacking */
 }
 
 .text-box
@@ -555,6 +717,7 @@ main
     max-width: 600px;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-self: center; /* Center the text box */
 }
 
 .text-box h2
@@ -573,7 +736,7 @@ main
     font-family: "JetBrains Mono", monospace;
     font-size: 18px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .text-box p
@@ -584,7 +747,11 @@ main
     line-height: 1.6;
     margin-bottom: 15px;
 }
-
+.text-box p a
+{
+    color: var(--orange);
+    text-decoration: none;
+}
 .text-box ul
 {
     color: #333;
@@ -658,6 +825,9 @@ main
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .back-btn:hover
@@ -665,6 +835,15 @@ main
     background-color: var(--orange);
     border-color: #333;
     color: #333;
+}
+
+/* Project Links Container */
+.project-links
+{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
 }
 
 /* Content Container Transition */
@@ -917,4 +1096,176 @@ div.op5.active h1
         font-size: 12px;
     }
 
+}
+
+/* Lightbox Gallery Styles */
+.lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-container {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lightbox-image {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    border: 2px solid var(--orange);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 10001;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.lightbox-close:hover {
+    color: var(--orange);
+}
+
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid var(--orange);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-family: "JetBrains Mono", monospace;
+    transition: all 0.3s ease;
+}
+
+.lightbox-prev {
+    left: -60px;
+}
+
+.lightbox-next {
+    right: -60px;
+}
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+    background-color: var(--orange);
+    color: #333;
+}
+
+.lightbox-caption {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.lightbox-counter {
+    color: var(--orange);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Responsive lightbox */
+@media (max-width: 768px) {
+    .lightbox-prev {
+        left: 10px;
+    }
+    
+    .lightbox-next {
+        right: 10px;
+    }
+    
+    .lightbox-close {
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+    }
+}
+/* Remove gaps from all lightbox galleries */
+.lightbox-gallery1 {
+    gap: 0;
+}
+
+.lightbox-gallery1 .image-row {
+    gap: 0;
+    margin: 0;
+}
+
+.lightbox-gallery1 .image-row img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.lightbox-gallery1 .image-row.square-row img
+{
+    width: 148px;
+}
+h4.title4gallery
+{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    color: var(--orange);
+    /* margin-bottom: 10px; */
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+h5.title4gallery
+{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14.5px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom:5px;
+}
+h5.title4gallery
+{
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom:5px;
+}
+h5:nth-of-type(1).title4gallery
+{
+    margin-top: -2.5px;
+}
+.image-gallery a {
+    text-decoration: none;
+}
+
+/* Home Gallery Hover Effects */
+#home-content .image-row img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+#home-content .image-row img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1) contrast(1.1);
+    z-index: 10;
+    position: relative;
 }
