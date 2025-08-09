@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <div class="subsection-overlay-text">Luvdrive Models</div>
                                 </div>
                                 <div class="subsection-item" data-project="3d-alien">
-                                    <img src="imgs/3DD/crashoverride/coNEW.png" alt="Crash Override Models">
+                                    <img src="imgs/3DD/crashoverride/coNew.png" alt="Crash Override Models">
                                     <div class="subsection-overlay-text">Crash Override Models</div>
                                 </div>
                                 <div class="subsection-item " data-project="3d-zero-cool">
