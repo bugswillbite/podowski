@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="image-row">
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/PodowskiDotNet/html/desktop.html" target="_blank">
-                                        <img src="imgs/webDesign/DESKTOP copy/Screenshot 2025-06-27 at 9.46.00 AM.PNG" alt="Desktop">
+                                        <img src="imgs/webDesign/DESKTOP copy/desktop.png" alt="Desktop">
                                         <div class="subsection-overlay-text">Desktop UI</div>
                                     </a>
                                 </div>
