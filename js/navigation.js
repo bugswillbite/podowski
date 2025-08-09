@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/garfield/" target="_blank">
-                                        <img src="imgs/webDesign/GARFIELD copy/G1.PNG" alt="Garfield">
+                                        <img src="imgs/webDesign/GARFIELD copy/G1.png" alt="Garfield">
                                         <div class="subsection-overlay-text">Garfield</div>
                                     </a>
                                 </div>
