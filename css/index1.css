@@ -40,7 +40,7 @@ footer div.margin
 div.margin.left
 {
     width: 5px;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 div.margin.left.bottom
 {
