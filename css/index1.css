@@ -1127,6 +1127,8 @@ h5:nth-of-type(1).title4gallery {
     .text-box {
         padding: 20px;
         margin: 0;
+        max-width: 341px;
+        margin-left: 20.5px;
     }
     .text-box h2 {
         font-size: 20px;
@@ -1139,5 +1141,8 @@ h5:nth-of-type(1).title4gallery {
     .contact-form input,
     .contact-form textarea {
         font-size: 12px;
+    }
+    footer {
+        margin-left: -3.5px;
     }
 }
