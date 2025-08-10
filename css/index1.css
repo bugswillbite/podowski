@@ -31,7 +31,10 @@ div.margin
     height: 28px;
     border-bottom: none;
 }
-
+.paragraph
+{
+    text-indent: 2em;
+}
 /* Footer margin adjustment */
 footer div.margin
 {
@@ -1268,4 +1271,122 @@ h5:nth-of-type(1).title4gallery
     filter: brightness(1.1) contrast(1.1);
     z-index: 10;
     position: relative;
+}
+
+/* File Folder Accordion Styles */
+.file-folders {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.file-folder {
+    position: relative;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.folder-tab {
+    background-color: #d4d0cd;
+    border: 2px solid #333;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    padding: 12px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    margin-bottom: -2px;
+    transition: all 0.3s ease;
+}
+
+.folder-tab:hover {
+    background-color: #c8c4c1;
+    transform: translateY(-2px);
+}
+
+.folder-tab h3 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.folder-icon {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--orange);
+    transition: transform 0.3s ease;
+}
+
+.folder-content {
+    background-color: #f5f1ee;
+    border: 2px solid #333;
+    border-radius: 0 8px 8px 8px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 20px;
+}
+
+.folder-content.active {
+    max-height: 600px; /* Increased from 500px to accommodate larger content */
+    padding: 20px;
+}
+
+.folder-inner h4 {
+    color: var(--orange);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    margin: 15px 0 8px 0;
+    border-bottom: 1px solid var(--orange);
+    padding-bottom: 4px;
+}
+
+.folder-inner h4:first-child {
+    margin-top: 0;
+}
+
+.folder-inner ul {
+    margin: 0 0 15px 0;
+    padding-left: 20px;
+}
+
+.folder-inner li {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.folder-inner a {
+    color: var(--orange);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.folder-inner a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .folder-tab {
+        width: 80%;
+    }
+    
+    .folder-tab h3 {
+        font-size: 14px;
+    }
+    
+    .folder-inner li {
+        font-size: 11px;
+    }
 }
