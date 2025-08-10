@@ -113,25 +113,88 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         portfolio: {
-            type: 'images',
+            type: 'text',
             content: `
-            
-                <div class="image-gallery" id="portfolio-content">
-                    <div class="image-row">
-                        <img src="../imgs/prog.png" alt="Programming Project">
-                        <img src="imgs/uiFull.png" alt="UI Design">
-                        <img src="../imgs/desktop.png" alt="Desktop App">
-                    </div>
-                    <div class="image-row">
-                        <img src="../imgs/device.png" alt="Device Design">
-                        <img src="../imgs/commodore64.png" alt="Retro Computing">
-                        <img src="../imgs/BIT2.JPEG" alt="Digital Project">
-                    </div>
-                    <div class="image-row">
-                        <img src="../imgs/BGIMG.png" alt="Background Design">
-                        <img src="../imgs/BGIMG2.png" alt="Background Design">
-                        <img src="../imgs/BGIMG3.png" alt="Background Design">
-                        <img src="../imgs/BGIMG4.png" alt="Background Design">
+                <div class="text-content" id="portfolio-content">
+                    <div class="text-box">
+                        <h2>Portfolio</h2>
+                        <p class="paragraph">A collection of projects, commissions, and works organized by category and skill area. To explore my full body of work, visit the Mediums section above!</p>
+
+                        <div class="file-folders">
+                            <div class="file-folder">
+                                <div class="folder-tab" data-folder="programming">
+                                    <h3>Programming Projects</h3>
+                                    <span class="folder-icon">+</span>
+                                </div>
+                                <div class="folder-content" id="programming-folder">
+                                    <div class="folder-inner">
+                                        <h4>Web Development</h4>
+                                        <ul>
+                                            <li><a href="https://binaryswag.club" target="_blank">Source Code Vintage - E-commerce Site</a></li>
+                                            <li><a href="https://bugswillbite.github.io/rUsmart/" target="_blank">R U Smart? - Interactive Quiz Application</a></li>
+                                            <li><a href="https://bugswillbite.github.io/bugChess/" target="_blank">Bug Chess - Project Development Website</a></li>
+                                            <li><a href="https://bugswillbite.github.io/garfield/" target="_blank">Garfield - Comic Fan Site</a></li>
+                                        </ul>
+                                        
+                                        <h4>Game Development & 3D Modelling</h4>
+                                        <ul>
+                                            <li><a href="https://bugswillbite.itch.io/crashoverride" target="_blank">Crash Override - 3D Skateboarding Game</a></li>
+                                            <li><a href="https://bugswillbite.itch.io/luvdrive" target="_blank">LuvDrive - Interactive 3D Environment</a></li>
+                                            <li><a href="https://bugswillbite.itch.io/mysa" target="_blank">MYSA - Narrative HTML Game</a></li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="file-folder">
+                                <div class="folder-tab" data-folder="design">
+                                    <h3>Design & Visual Work</h3>
+                                    <span class="folder-icon">+</span>
+                                </div>
+                                <div class="folder-content" id="design-folder">
+                                    <div class="folder-inner">
+                                        <h4>Graphic Design & 3D Modelling</h4>
+                                        <ul>
+                                            <li><a href="https://theprophitt.bandcamp.com/album/zero-cool" target="_blank">Zero Cool - Album Cover</a></li>
+                                            <li><a href="https://www.instagram.com/p/C9K5p_CODT3/?img_index=1" target="_blank">Towhead Poster Design - Digital Advertising</a></li>
+                                        </ul>
+                                        
+                                        <h4>Video & Motion Graphics</h4>
+                                        <ul>
+                                            <li><a href="https://www.youtube.com/watch?v=XlLQM25D5hY" target="_blank">Operelly Visualizer - Music Video</a></li>
+                                            <li><a href="https://youtu.be/z2rGIHWx1rk" target="_blank">Cyber Worship Reality - Appropriation Video</a></li>
+                                            <li><a href="https://lh-st.com/shows/01-03-2025-devin/" target="_blank">Sounds of Truth - Live Visuals</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="file-folder">
+                                <div class="folder-tab" data-folder="education">
+                                    <h3>Education & Experience</h3>
+                                    <span class="folder-icon">+</span>
+                                </div>
+                                <div class="folder-content" id="education-folder">
+                                    <div class="folder-inner">
+                                        <h4>Academic Background</h4>
+                                        <ul>
+                                            <li>SAIC - Bachelor of Fine Arts in Studio Arts</li>
+                                            <li>UI/UX Design - Prototyping, Interactive Design, Screen Sizes</li>
+                                            <li>Video Production & Post-Production - Premiere Pro, After Effects, DSLRs</li>
+                                        </ul>
+                                        
+                                        <h4>Technical Skills</h4>
+                                        <ul>
+                                            <li>Languages: HTML, CSS, JavaScript</li>
+                                            <li>Software: Unity, Maya, Blender, Adobe Creative Suite</li>
+                                            <li>Tools: Git, VS Code, Figma, Premiere Pro</li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             `
@@ -142,19 +205,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="text-content" id="about-content">
                     <div class="text-box">
                         <h2>About Izabella Podowski</h2>
-                        <p>I am a multidisciplinary creative professional specializing in programming, design, and digital media.</p>
-                        
+                            <p class="paragraph">Bella is a multidisciplinary creative professional specializing in programming, design, digital media, and brand identity.</p>
+                        <h3>Education</h3>
+                            <p>School of the Art Institute of Chicago (2021-2025):</p>
+                                <ul>
+                                    <li>Bachelor of Fine Arts in Studio Arts</li>
+                                    <li>Focus in Video, New Media, Visual Communication, and Art & Tech</li>
+                                </ul>
                         <h3>Skills & Expertise</h3>
-                        <ul>
-                            <li>Full-stack web development</li>
-                            <li>UI/UX design and prototyping</li>
-                            <li>3D modeling and digital art</li>
-                            <li>Video editing and post-production</li>
-                            <li>Interactive media development</li>
-                        </ul>
-                        
+                            <ul>
+                                <li>Full-stack web development</li>
+                                <li>UI/UX design and prototyping</li>
+                                <li>3D modeling and digital art</li>
+                                <li>Video editing and post-production</li>
+                                <li>Interactive media development</li>
+                            </ul>
+                        <h3>Languages</h3>
+                            <ul>
+                                <li>English</li>
+                                <li>Swedish</li>
+                            </ul>
                         <h3>Philosophy</h3>
-                        <p>Every project is an opportunity to explore new technologies, push creative boundaries, and solve complex problems through elegant solutions.</p>
+                            <p class="paragraph">Every project is an opportunity to explore new technologies, push creative boundaries, and learn through experimentation and collaboration!</p>
                     </div>
                 </div>
             `
@@ -225,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="image-row">
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/PodowskiDotNet/html/desktop.html" target="_blank">
-                                        <img src="imgs/webDesign/DESKTOP copy/desktop.png" alt="Desktop">
+                                        <img src="imgs/webDesign/DESKTOP copy/desktop.PNG" alt="Desktop">
                                         <div class="subsection-overlay-text">Desktop UI</div>
                                     </a>
                                 </div>
@@ -237,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/garfield/" target="_blank">
-                                        <img src="imgs/webDesign/GARFIELD copy/G1.png" alt="Garfield">
+                                        <img src="imgs/webDesign/GARFIELD copy/G1.PNG" alt="Garfield">
                                         <div class="subsection-overlay-text">Garfield</div>
                                     </a>
                                 </div>
@@ -425,7 +497,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <div class="subsection-overlay-text">Luvdrive Models</div>
                                 </div>
                                 <div class="subsection-item" data-project="3d-alien">
-                                    <img src="imgs/3DD/crashoverride/coNew.png" alt="Crash Override Models">
+                                    <img src="imgs/3DD/crashoverride/coNEW.png" alt="Crash Override Models">
                                     <div class="subsection-overlay-text">Crash Override Models</div>
                                 </div>
                                 <div class="subsection-item " data-project="3d-zero-cool">
@@ -1017,6 +1089,38 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
+    // Function to setup accordion functionality
+    function setupAccordionFolders() {
+        const folderTabs = document.querySelectorAll('.folder-tab');
+        const folderContents = document.querySelectorAll('.folder-content');
+        const folderIcons = document.querySelectorAll('.folder-icon');
+        
+        // Open all folders by default
+        folderContents.forEach(content => {
+            content.classList.add('active');
+        });
+        folderIcons.forEach(icon => {
+            icon.textContent = '−';
+        });
+        
+        folderTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                const folderId = this.getAttribute('data-folder') + '-folder';
+                const folderContent = document.getElementById(folderId);
+                const icon = this.querySelector('.folder-icon');
+                
+                // Toggle the clicked folder
+                if (folderContent.classList.contains('active')) {
+                    folderContent.classList.remove('active');
+                    icon.textContent = '+';
+                } else {
+                    folderContent.classList.add('active');
+                    icon.textContent = '−';
+                }
+            });
+        });
+    }
+
     // Function to switch content
     function switchContent(sectionName) {
         let section = sectionContent[sectionName] || mediumSubsections[sectionName];
@@ -1029,6 +1133,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 contentContainer.style.opacity = '1';
             }, 50);
             
+            // If portfolio section, setup accordion folders
+            if (sectionName === 'portfolio') {
+                setupAccordionFolders();
+            }
 
             // If contact section, add form handler
             if (sectionName === 'contact') {
@@ -1234,7 +1342,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const message = form.querySelector('textarea[placeholder="Your Message"]').value;
                 
                 // Create Gmail compose URL
-                const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=bella.podowski@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+                const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=bella.podowski@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\n\nMessage:\n${message}`)}`;
                 
                 // Open Gmail in new tab
                 window.open(gmailURL, '_blank');
