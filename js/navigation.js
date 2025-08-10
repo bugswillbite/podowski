@@ -1,11 +1,7 @@
-// Navigation functionality for dynamic content switching
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Get all the op divs instead of the anchor links
     const navDivs = document.querySelectorAll('div.op1, div.op2, div.op3, div.op4, div.op5, div.op6');
     const contentContainer = document.getElementById('content-container');
 
-    // Add data-section attributes to the divs
     navDivs.forEach(div => {
         if (div.classList.contains('op1')) {
             div.setAttribute('data-section', 'home');
@@ -22,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Content data for different sections
     const sectionContent = {
         home: {
             type: 'images',
@@ -262,7 +257,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    // Detailed subsections for each medium
     const mediumSubsections = {
         'web-design': {
             type: 'text',
@@ -527,7 +521,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `
         },
-        // Individual 3D Project Subsections
         '3d-cat': {
             type: 'text',
             content: `
@@ -1089,13 +1082,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    // Function to setup accordion functionality
     function setupAccordionFolders() {
         const folderTabs = document.querySelectorAll('.folder-tab');
         const folderContents = document.querySelectorAll('.folder-content');
         const folderIcons = document.querySelectorAll('.folder-icon');
         
-        // Open all folders by default
         folderContents.forEach(content => {
             content.classList.add('active');
         });
@@ -1109,7 +1100,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 const folderContent = document.getElementById(folderId);
                 const icon = this.querySelector('.folder-icon');
                 
-                // Toggle the clicked folder
                 if (folderContent.classList.contains('active')) {
                     folderContent.classList.remove('active');
                     icon.textContent = '+';
@@ -1121,57 +1111,47 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Function to switch content
     function switchContent(sectionName) {
         let section = sectionContent[sectionName] || mediumSubsections[sectionName];
         if (section) {
             contentContainer.innerHTML = section.content;
             
-            // Add fade-in effect
             contentContainer.style.opacity = '0';
             setTimeout(() => {
                 contentContainer.style.opacity = '1';
             }, 50);
             
-            // If portfolio section, setup accordion folders
             if (sectionName === 'portfolio') {
                 setupAccordionFolders();
             }
 
-            // If contact section, add form handler
             if (sectionName === 'contact') {
                 setupContactForm();
             }
             
-            // If mediums section, add click handlers for medium items
             if (sectionName === 'mediums') {
                 setupMediumClickHandlers();
             }
             
-            // If 3d-modelling section, add click handlers for project items
             if (sectionName === '3d-modelling') {
                 setup3DProjectClickHandlers();
             }
             
-            // If physical media section, add click handlers for project items
             if (sectionName === 'physical-media') {
                 setupPhysicalMediaClickHandlers();
             }
             
-            // If it's a medium subsection, add back button handler
             if (mediumSubsections[sectionName]) {
                 setupBackButton();
             }
         }
     }
 
-    // Function to setup lightbox gallery functionality
     function setupLightbox() {
         const lightboxImages = document.querySelectorAll('.lightbox-gallery img[data-lightbox]');
         
         if (lightboxImages.length === 0) return;
         
-        // Create lightbox overlay
         const lightboxOverlay = document.createElement('div');
         lightboxOverlay.className = 'lightbox-overlay';
         lightboxOverlay.innerHTML = `
@@ -1226,7 +1206,6 @@ document.addEventListener('DOMContentLoaded', function() {
             showImage(currentIndex);
         }
         
-        // Add click handlers to gallery images
         lightboxImages.forEach((img, index) => {
             img.addEventListener('click', () => {
                 showLightbox(index);
@@ -1234,19 +1213,16 @@ document.addEventListener('DOMContentLoaded', function() {
             img.style.cursor = 'pointer';
         });
         
-        // Lightbox controls
         closeBtn.addEventListener('click', hideLightbox);
         nextBtn.addEventListener('click', nextImage);
         prevBtn.addEventListener('click', prevImage);
         
-        // Close on overlay click
         lightboxOverlay.addEventListener('click', (e) => {
             if (e.target === lightboxOverlay) {
                 hideLightbox();
             }
         });
         
-        // Keyboard navigation
         document.addEventListener('keydown', (e) => {
             if (lightboxOverlay.style.display === 'flex') {
                 switch(e.key) {
@@ -1264,13 +1240,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Function to setup back button functionality
     function setupBackButton() {
         const backBtn = document.querySelector('.back-btn');
         if (backBtn) {
             backBtn.addEventListener('click', function(e) {
                 e.preventDefault();
-                // Check if we're in a 3D subsection
                 if (this.textContent.includes('3D Modelling')) {
                     switchContent('3d-modelling');
                 } else if (this.textContent.includes('Physical Media')) {
@@ -1281,11 +1255,9 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
         
-        // Setup lightbox if needed
         setupLightbox();
     }
 
-    // Function to setup click handlers for medium items
     function setupMediumClickHandlers() {
         const mediumItems = document.querySelectorAll('.medium-item[data-medium]');
         mediumItems.forEach(item => {
@@ -1295,14 +1267,10 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
         
-        // Setup 3D project click handlers
         setup3DProjectClickHandlers();
-        
-        // Setup physical media project click handlers
         setupPhysicalMediaClickHandlers();
     }
 
-    // Function to setup click handlers for 3D project items
     function setup3DProjectClickHandlers() {
         const projectItems = document.querySelectorAll('.subsection-item[data-project]');
         projectItems.forEach(item => {
@@ -1315,7 +1283,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Function to setup click handlers for physical media project items
     function setupPhysicalMediaClickHandlers() {
         const physicalMediaItems = document.querySelectorAll('#physical-media-content .subsection-item[data-project]');
         physicalMediaItems.forEach(item => {
@@ -1328,32 +1295,26 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Function to setup contact form functionality
     function setupContactForm() {
         const form = document.querySelector('#contact-content form');
         if (form) {
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
                 
-                // Get form data
                 const name = form.querySelector('input[placeholder="Your Name"]').value;
                 const email = form.querySelector('input[placeholder="Your Email"]').value;
                 const subject = form.querySelector('input[placeholder="Subject"]').value;
                 const message = form.querySelector('textarea[placeholder="Your Message"]').value;
                 
-                // Create Gmail compose URL
                 const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=bella.podowski@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\n\nMessage:\n${message}`)}`;
                 
-                // Open Gmail in new tab
                 window.open(gmailURL, '_blank');
                 
-                // Show success message
                 const button = form.querySelector('button[type="submit"]');
                 const originalText = button.textContent;
                 button.textContent = 'Gmail Opened!';
                 button.style.backgroundColor = '#4CAF50';
                 
-                // Reset button after 3 seconds
                 setTimeout(() => {
                     button.textContent = originalText;
                     button.style.backgroundColor = '#fa5b21';
@@ -1363,32 +1324,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Add click event listeners to navigation divs
     navDivs.forEach(div => {
         div.addEventListener('click', function(e) {
             e.preventDefault();
             const sectionName = this.getAttribute('data-section');
             switchContent(sectionName);
             
-            // Remove active state from all nav divs
             navDivs.forEach(d => {
                 d.classList.remove('active');
             });
             
-            // Add active state to clicked nav div
             this.classList.add('active');
         });
     });
 
-    // Set home as default active (op1)
     document.querySelector('div.op1').classList.add('active');
     
-    // Initialize contact form if contact section is visible on load
     if (document.querySelector('#contact-content')) {
         setupContactForm();
     }
     
-    // Initialize medium click handlers if mediums section is visible on load
     if (document.querySelector('#mediums-content')) {
         setupMediumClickHandlers();
     }
