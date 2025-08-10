@@ -61,21 +61,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="image-gallery mediums-gallery" id="mediums-content">
                     <div class="image-row">
                         <div class="medium-item" data-medium="web-design">
-                            <video src="vids/scv.mp4" autoplay muted loop>
+                            <video src="vids/scv.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/scv.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="overlay-text">Web Design</div>
                         </div>
                         <div class="medium-item" data-medium="video-editing">
-                            <video src="vids/cwr.mp4" autoplay muted loop>
+                            <video src="vids/cwr.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/cwr.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="overlay-text">Video Editing</div>
                         </div>
                         <div class="medium-item" data-medium="graphic-design">
-                                <video src="vids/gdes.mp4" autoplay muted loop>
+                                <video src="vids/gdes.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/gdes.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>                            <div class="overlay-text">Graphic Design</div>
@@ -83,21 +83,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="image-row">
                         <div class="medium-item" data-medium="3d-modelling">
-                                <video src="vids/3d.mp4" autoplay muted loop>
+                                <video src="vids/3d.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/3d.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="overlay-text">3D Modelling</div>
                         </div>
                         <div class="medium-item" data-medium="game-development">
-                                <video src="vids/gd.mp4" autoplay muted loop">
+                                <video src="vids/gd.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/gd.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <div class="overlay-text">Game Development</div>
                         </div>
                         <div class="medium-item" data-medium="physical-media">
-                            <video src="vids/pm.mp4" autoplay muted loop>
+                            <video src="vids/pm.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/pm.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -237,8 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="contact-info">
                             <h3>Contact Information</h3>
                             <p><strong>Email:</strong> bella.podowski@gmail.com</p>
-                            <p><strong>Phone:</strong> Available upon request</p>
-                            <p><strong>Location:</strong> Available for remote work</p>
+                            <p><strong>Location:</strong> Rochester, NY. Available for remote work.</p>
                         </div>
                         
                         <div class="contact-form">
@@ -338,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <div class="medium-item" data-medium="web-design">
                             <a href="https://www.youtube.com/watch?v=XlLQM25D5hY" target="_blank">
-                            <video src="vids/operelly copy.mp4" autoplay muted loop>
+                            <video src="vids/operelly copy.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/operelly copy.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -348,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <div class="medium-item" data-medium="video-editing">
                             <a href="https://youtu.be/z2rGIHWx1rk?si=xJZjS0ImOUtddZWo" target="_blank">
-                            <video src="vids/cwr.mp4" autoplay muted loop>
+                            <video src="vids/cwr.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/cwr.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -357,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <div class="medium-item" data-medium="graphic-design">
                                 <a href="https://www.youtube.com/watch?v=4Jkb0T4Lob8" target="_blank">
-                                <video src="vids/videoBG.mp4" autoplay muted loop>
+                                <video src="vids/videoBG.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/videoBG.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>              <div class="overlay-text">Unpacking.mp4</div></a>
@@ -367,7 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="image-row">
                         <div class="medium-item" data-medium="3d-modelling">
                                 <a href="https://www.youtube.com/watch?v=7plpl-A4gyM" target="_blank">
-                                <video src="vids/dbab.mp4" autoplay muted loop>
+                                <video src="vids/dbab.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/dbab.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -376,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         
                         <div class="medium-item" data-medium="game-development">
                                 <a href="https://www.youtube.com/watch?v=xanWbQJceKY&t=5s" target="_blank">
-                                <video src="vids/trinkets.mp4" autoplay muted loop">
+                                <video src="vids/trinkets.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/trinkets.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -385,7 +384,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <div class="medium-item" data-medium="physical-media">
                                 <a href="https://www.youtube.com/watch?v=LqJsh73PkoY" target="_blank">
-                            <video src="vids/blip.mp4" autoplay muted loop>
+                            <video src="vids/blip.mp4" autoplay muted loop controls webkit-playsinline playsinline>
                                 <source src="vids/blip.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
