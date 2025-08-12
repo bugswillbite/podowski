@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="text-content" id="about-content">
                     <div class="text-box">
                         <h2>About Izabella Podowski</h2>
-                            <p class="paragraph">Bella is a multidisciplinary creative professional specializing in programming, design, digital media, and brand identity.</p>
+                            <p class="paragraph">Born 2002 in San Francisco, CA, Bella is a multidisciplinary creative professional specializing in programming, design, digital media, and brand identity. </p>
                         <h3>Education</h3>
                             <p>School of the Art Institute of Chicago (2021-2025):</p>
                                 <ul>
