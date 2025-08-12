@@ -309,8 +309,7 @@ main {
     padding-left: 30px;
     width: 100%;
 }
-.name.descript1 
-{
+.name.descript1 {
     display: none;
 }
 .middle-contain {
@@ -1146,6 +1145,7 @@ h5:nth-of-type(1).title4gallery {
         margin-top: 55px;
         padding-left: 40px;
         width: 100%;
+        display: inherit;
     }
     .bottom-contain {
         padding: 10px;
