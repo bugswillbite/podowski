@@ -1145,7 +1145,7 @@ h5:nth-of-type(1).title4gallery {
         margin-top: 55px;
         padding-left: 40px;
         width: 100%;
-        display: inherit;
+        display: flex;
     }
     .bottom-contain {
         padding: 10px;
