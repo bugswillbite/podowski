@@ -420,19 +420,19 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="image-gallery subsection-gallery">
                             <div class="image-row">
                                 <div class="subsection-item">
-                                    <a href="https://www.behance.net/bella-podowski" target="_blank">
+                                    <a href="https://www.instagram.com/p/C9K5p_CODT3" target="_blank">
                                         <img src="imgs/towheadFish.png" alt="Towhead Poster Design">
                                         <div class="subsection-overlay-text">Towhead Poster Design</div>
                                     </a>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://www.behance.net/bella-podowski" target="_blank">
+                                    <a href="https://theprophitt.bandcamp.com/album/zero-cool" target="_blank">
                                         <img src="imgs/ZeroCool copy.jpg" alt="Zero Cool Album Cover">
                                         <div class="subsection-overlay-text">Prophitt Album Cover</div>
                                     </a>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://www.behance.net/bella-podowski" target="_blank">
+                                    <a href="https://binaryswag.club/#contact" target="_blank">
                                         <img src="imgs/front-bizcard copy.png" alt="Source Code Vintage Business Card">
                                         <div class="subsection-overlay-text">Source Code Vintage Business Card</div>
                                     </a>
@@ -440,19 +440,19 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="image-row">
                                 <div class="subsection-item">
-                                    <a href="https://www.behance.net/bella-podowski" target="_blank">
+                                    <a href="https://www.instagram.com/p/C9K5p_CODT3" target="_blank">
                                         <img src="imgs/towhead hands.png" alt="Towhead Poster Design">
                                         <div class="subsection-overlay-text">Towhead Poster Design</div>
                                     </a>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://www.behance.net/bella-podowski" target="_blank">
+                                    <a href="https://www.instagram.com/p/C9K5p_CODT3" target="_blank">
                                         <img src="imgs/towhead mouth.png" alt="Towhead Poster Design">
                                         <div class="subsection-overlay-text">Towhead Poster Design</div>
                                     </a>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://www.behance.net/bella-podowski" target="_blank">
+                                    <a href="#" target="_blank">
                                         <img src="imgs/bio.png" alt="Experimental Bio Layout">
                                         <div class="subsection-overlay-text">Experimental Bio Layout</div>
                                     </a>
