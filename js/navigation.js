@@ -31,13 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="image-row">
                                 <img src="imgs/physical/painting/CW2.png" alt="Gallery Image">
-                                <img src="imgs/webDesign/RUSMART copy/RUS1.png" alt="Gallery Image">                                
+                                <img src="imgs/webDesign/RUSMART/RUS1.png" alt="Gallery Image">                                
                                 <img src="imgs/3DD/crashOverride/sky.png" alt="Gallery Image">
                             </div>
                             <div class="image-row">
                                 <img src="imgs/physical/painting/face copy.jpg" alt="Gallery Image">
                                 <img src="imgs/3DD/crashOverride/fly.png" alt="Gallery Image">
-                                <img src="imgs/webDesign/GARFIELD copy/G1.png" alt="Gallery Image">
+                                <img src="imgs/webDesign/GARFIELD/G1.png" alt="Gallery Image">
                                 <img src="imgs/3DD/moonstruck/MS4.png" alt="Gallery Image">
                                 <img src="imgs/physical/painting/PFCL.jpg" alt="Gallery Image">
                             </div>
@@ -795,7 +795,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="image-row full-width-row">
                                 <div class="subsection-item full-width-item">
                                     <a href="https://bugswillbite.itch.io/mysa" target="_blank">
-                                        <img src="imgs/webDesign/MYSA copy/M1 copy.png" alt="MYSA">
+                                        <img src="imgs/webDesign/MYSA/M1 copy.png" alt="MYSA">
                                         <div class="subsection-overlay-text">MYSA</div>
                                     </a>
                                 </div>
