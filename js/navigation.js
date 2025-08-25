@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="image-row">
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/PodowskiDotNet/html/desktop.html" target="_blank">
-                                        <img src="imgs/webDesign/DESKTOP copy/desktop.png" alt="Desktop">
+                                        <img src="imgs/webDesign/DESKTOP copy/desktop.PNG" alt="Desktop">
                                         <div class="subsection-overlay-text">Desktop UI</div>
                                     </a>
                                 </div>
@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/garfield/" target="_blank">
-                                        <img src="imgs/webDesign/GARFIELD copy/G1.png" alt="Garfield">
+                                        <img src="imgs/webDesign/GARFIELD copy/G1.PNG" alt="Garfield">
                                         <div class="subsection-overlay-text">Garfield</div>
                                     </a>
                                 </div>
@@ -417,45 +417,47 @@ document.addEventListener('DOMContentLoaded', function() {
                         <p>Visual communication through typography, layout, and branding. Creating compelling designs for digital and print media.</p>
                         
                         <h3>Featured Projects</h3>
-                        <div class="image-gallery subsection-gallery">
+                        <div class="image-gallery subsection-gallery lightbox-gallery">
                             <div class="image-row">
                                 <div class="subsection-item">
-                                    <a href="https://www.instagram.com/p/C9K5p_CODT3" target="_blank">
-                                        <img src="imgs/towheadFish.png" alt="Towhead Poster Design">
-                                        <div class="subsection-overlay-text">Towhead Poster Design</div>
-                                    </a>
+                                    <img src="imgs/graphicdesign/towheadFish.png" alt="Towhead Poster Design" data-lightbox="graphic-design" data-index="0" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://theprophitt.bandcamp.com/album/zero-cool" target="_blank">
-                                        <img src="imgs/ZeroCool copy.jpg" alt="Zero Cool Album Cover">
-                                        <div class="subsection-overlay-text">Prophitt Album Cover</div>
-                                    </a>
+                                    <img src="imgs/graphicdesign/ZeroCool copy.jpg" alt="Zero Cool Album Cover" data-lightbox="graphic-design" data-index="1" data-external-link="https://theprophitt.bandcamp.com/album/zero-cool">
+                                    <div class="subsection-overlay-text">Prophitt Album Cover</div>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://binaryswag.club/#contact" target="_blank">
-                                        <img src="imgs/front-bizcard copy.png" alt="Source Code Vintage Business Card">
-                                        <div class="subsection-overlay-text">Source Code Vintage Business Card</div>
-                                    </a>
+                                    <img src="imgs/graphicdesign/front-bizcard copy.png" alt="Source Code Vintage Business Card" data-lightbox="graphic-design" data-index="2" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Source Code Vintage Business Card</div>
                                 </div>
                             </div>
                             <div class="image-row">
                                 <div class="subsection-item">
-                                    <a href="https://www.instagram.com/p/C9K5p_CODT3" target="_blank">
-                                        <img src="imgs/towhead hands.png" alt="Towhead Poster Design">
-                                        <div class="subsection-overlay-text">Towhead Poster Design</div>
-                                    </a>
+                                    <img src="imgs/graphicdesign/proph.png" alt="Prophitt Poster Design" data-lightbox="graphic-design" data-index="3">
+                                    <div class="subsection-overlay-text">Prophitt Promo Poster</div>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://www.instagram.com/p/C9K5p_CODT3" target="_blank">
-                                        <img src="imgs/towhead mouth.png" alt="Towhead Poster Design">
-                                        <div class="subsection-overlay-text">Towhead Poster Design</div>
-                                    </a>
+                                    <img src="imgs/graphicdesign/scc.png" alt="Source Code Camera" data-lightbox="graphic-design" data-index="4">
+                                    <div class="subsection-overlay-text">Source Code Camera</div>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="#" target="_blank">
-                                        <img src="imgs/bio.png" alt="Experimental Bio Layout">
-                                        <div class="subsection-overlay-text">Experimental Bio Layout</div>
-                                    </a>
+                                    <img src="imgs/graphicdesign/towhead hands.png" alt="Towhead Poster Design - Hands" data-lightbox="graphic-design" data-index="6" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
+                                </div>
+                            </div>
+                            <div class="image-row">
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/towhead.png" alt="Towhead Poster Design - Zendeya" data-lightbox="graphic-design" data-index="6" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/towhead mouth.PNG" alt="Towhead Poster Design - Mouth" data-lightbox="graphic-design" data-index="7" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/ipod.png" alt="Devin. Schubas iPod Poster" data-lightbox="graphic-design" data-index="8">
+                                    <div class="subsection-overlay-text">Devin. Schubas iPod Poster</div>
                                 </div>
                             </div>
                         </div>
@@ -490,7 +492,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <div class="subsection-overlay-text">Luvdrive Models</div>
                                 </div>
                                 <div class="subsection-item" data-project="3d-alien">
-                                    <img src="imgs/3DD/crashOverride/coNew.png" alt="Crash Override Models">
+                                    <img src="imgs/3DD/crashoverride/coNEW.png" alt="Crash Override Models">
                                     <div class="subsection-overlay-text">Crash Override Models</div>
                                 </div>
                                 <div class="subsection-item " data-project="3d-zero-cool">
@@ -1161,6 +1163,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="lightbox-next">&#8250;</button>
                 <div class="lightbox-caption"></div>
                 <div class="lightbox-counter"></div>
+                <div class="lightbox-external-link"></div>
             </div>
         `;
         document.body.appendChild(lightboxOverlay);
@@ -1168,6 +1171,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const lightboxImg = lightboxOverlay.querySelector('.lightbox-image');
         const lightboxCaption = lightboxOverlay.querySelector('.lightbox-caption');
         const lightboxCounter = lightboxOverlay.querySelector('.lightbox-counter');
+        const lightboxExternalLink = lightboxOverlay.querySelector('.lightbox-external-link');
         const closeBtn = lightboxOverlay.querySelector('.lightbox-close');
         const prevBtn = lightboxOverlay.querySelector('.lightbox-prev');
         const nextBtn = lightboxOverlay.querySelector('.lightbox-next');
@@ -1175,12 +1179,28 @@ document.addEventListener('DOMContentLoaded', function() {
         let currentIndex = 0;
         const images = Array.from(lightboxImages);
         
+        function isFullscreen() {
+            return !!(document.fullscreenElement || document.webkitFullscreenElement || 
+                     document.mozFullScreenElement || document.msFullscreenElement);
+        }
+        
         function showImage(index) {
             const img = images[index];
             lightboxImg.src = img.src;
             lightboxImg.alt = img.alt;
             lightboxCaption.textContent = img.alt;
             lightboxCounter.textContent = `${index + 1} / ${images.length}`;
+            
+            // Handle external link display
+            const externalLink = img.getAttribute('data-external-link');
+            if (externalLink && isFullscreen()) {
+                lightboxExternalLink.innerHTML = `<a href="${externalLink}" target="_blank">View Project →</a>`;
+            } else if (externalLink) {
+                lightboxExternalLink.innerHTML = `<span class="fullscreen-hint">Enter fullscreen to access external links</span>`;
+            } else {
+                lightboxExternalLink.innerHTML = '';
+            }
+            
             currentIndex = index;
         }
         
@@ -1235,6 +1255,19 @@ document.addEventListener('DOMContentLoaded', function() {
                         prevImage();
                         break;
                 }
+            }
+        });
+        
+        // Listen for fullscreen changes to update external links
+        document.addEventListener('fullscreenchange', () => {
+            if (lightboxOverlay.style.display === 'flex') {
+                showImage(currentIndex);
+            }
+        });
+        
+        document.addEventListener('webkitfullscreenchange', () => {
+            if (lightboxOverlay.style.display === 'flex') {
+                showImage(currentIndex);
             }
         });
     }
