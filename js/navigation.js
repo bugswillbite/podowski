@@ -290,19 +290,19 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="image-row">
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/PodowskiDotNet/html/desktop.html" target="_blank">
-                                        <img src="imgs/webDesign/DESKTOP copy/desktop.PNG" alt="Desktop">
+                                        <img src="imgs/webDesign/DESKTOP/desktop.PNG" alt="Desktop">
                                         <div class="subsection-overlay-text">Desktop UI</div>
                                     </a>
                                 </div>
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/rUsmart/" target="_blank">
-                                        <img src="imgs/webDesign/RUSMART copy/RUS1.png" alt="R U Smart?">
+                                        <img src="imgs/webDesign/RUSMART/RUS1.png" alt="R U Smart?">
                                         <div class="subsection-overlay-text">R U Smart?</div>
                                     </a>
                                 </div>
                                 <div class="subsection-item">
                                     <a href="https://bugswillbite.github.io/garfield/" target="_blank">
-                                        <img src="imgs/webDesign/GARFIELD copy/G1.PNG" alt="Garfield">
+                                        <img src="imgs/webDesign/GARFIELD/G1.PNG" alt="Garfield">
                                         <div class="subsection-overlay-text">Garfield</div>
                                     </a>
                                 </div>
