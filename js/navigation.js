@@ -269,13 +269,13 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="image-gallery subsection-gallery">
                             <div class="image-row">
                                 <div class="subsection-item">
-                                    <a href="binaryswag.club" target="_blank">
+                                    <a href="https://binaryswag.club" target="_blank">
                                         <img src="imgs/webDesign/cs.png" alt="Source Code Vintage">
                                         <div class="subsection-overlay-text">Source Code Vintage</div>
                                     </a>
                                 </div>
                                 <div class="subsection-item">
-                                    <a href="https://bugswillbite.github.io/bugChess/html" target="_blank">
+                                    <a href="https://bugswillbite.github.io/bugChess" target="_blank">
                                         <img src="imgs/3DD/bugchessIMG/web.png" alt="BugChess">
                                         <div class="subsection-overlay-text">Bug Chess</div>
                                     </a>
@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="image-row">
                                 <div class="subsection-item">
-                                    <a href="https://bugswillbite.github.io/PodowskiDotNet/html/desktop.html" target="_blank">
+                                    <a href="https://bugswillbite.github.io/PodowskiDotNet/html/wd-desktop.html" target="_blank">
                                         <img src="imgs/webDesign/DESKTOP/desktop.PNG" alt="Desktop">
                                         <div class="subsection-overlay-text">Desktop UI</div>
                                     </a>
