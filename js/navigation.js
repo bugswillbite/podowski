@@ -795,7 +795,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="image-row full-width-row">
                                 <div class="subsection-item full-width-item">
                                     <a href="https://bugswillbite.itch.io/mysa" target="_blank">
-                                        <img src="imgs/webDesign/MYSA/M1 copy.png" alt="MYSA">
+                                        <img src="imgs/webDesign/MYSA/M1.png" alt="MYSA">
                                         <div class="subsection-overlay-text">MYSA</div>
                                     </a>
                                 </div>
