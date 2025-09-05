@@ -482,6 +482,77 @@ main {
 .image-row.square-row {
     justify-content: center;
 }
+/* VGG IMGS */
+.image-row.vgg img {
+    height: 372px;
+    object-fit: cover;
+}
+.image-row.vgg {
+    justify-content: center;
+}
+/* lamp IMGS */
+.image-row.lamp img {
+    height: 221px;
+    object-fit: cover;
+}
+.image-row.lamp {
+    justify-content: center;
+}
+/*  creature IMGS */
+.image-row.c img {
+    display: flex;
+    gap: 0px;
+    height: 321px;
+}
+.image-row.c1 img {
+    display: flex;
+    gap: 0px;
+    height: 233px;
+}
+.image-row.c2 img {
+    display: flex;
+    gap: 0px;
+    height: 350px;
+}
+/*  tetsuo IMGS */
+.image-row.tet img {
+    display: flex;
+    gap: 0px;
+    height: 321px;
+}
+.image-row.tet {
+    justify-content: center;
+}
+/*  haus IMGS */
+.image-row.haus img {
+    display: flex;
+    gap: 0px;
+    height: 205px;
+}
+/*  3d IMGS */
+.image-row.threed img {
+    display: flex;
+    gap: 0px;
+    height: 335px;
+}
+/*  draw IMGS */
+.image-row.draw img {
+    display: flex;
+    gap: 0px;
+    height: 218px;
+}
+/*  duck IMGS */
+.image-row.duck img {
+    display: flex;
+    gap: 0px;
+    height: 218px;
+}
+/*  sq2 IMGS */
+.image-row.sq2 img {
+    display: flex;
+    gap: 0px;
+    height: 200px;
+}
 /* TRINKET IMG GALLERY */
 .trinkets-gallery .image-row img {
     height: 200px;
@@ -497,6 +568,12 @@ main {
     width: 100%;
     justify-content: center;
     margin-bottom: 5px;
+}
+/*  BIT IMGS */
+.image-row.bit img {
+    display: flex;
+    gap: 0px;
+    height: 283px;
 }
 /* MEDIUMS IMG GALLERY */
 .mediums-gallery .image-row {
@@ -1157,6 +1234,14 @@ h5:nth-of-type(1).title4gallery {
     .image-row img {
         height: 100px;
     }
+        .image-row img,
+        .image-row.square-row img,
+        .lightbox-gallery1 .image-row.square-row img {
+            width: 100% !important;
+            height: auto !important;
+            min-width: 0 !important;
+            max-width: 100vw !important;
+        }
     .text-content {
         padding: 10px;
     }
@@ -1180,5 +1265,9 @@ h5:nth-of-type(1).title4gallery {
     }
     footer {
         margin-left: -3.5px;
+    }
+    .lightbox-gallery1 .image-row.square-row img {
+    width: 100%;
+    height: 100%;
     }
 }
