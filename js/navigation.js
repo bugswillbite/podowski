@@ -143,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                             <li><a href="https://bugswillbite.itch.io/crashOverride" target="_blank">Crash Override - 3D Skateboarding Game</a></li>
                                             <li><a href="https://bugswillbite.itch.io/luvdrive" target="_blank">LuvDrive - Interactive 3D Environment</a></li>
                                             <li><a href="https://bugswillbite.itch.io/mysa" target="_blank">MYSA - Narrative HTML Game</a></li>
+                                            <li><a href="https://bugswillbite.itch.io/decorate-my-room" target="_blank">Decorate My Room! - Bedroom Maker HTML Game</a></li>
                                         </ul>
                                         
                                     </div>
@@ -452,22 +453,144 @@ document.addEventListener('DOMContentLoaded', function() {
                                         <div class="image-gallery subsection-gallery threed-horiz">
                                             <div class="image-row">
                                                 <div class="subsection-item">
-                                                    <img src="imgs/3DD/trinkets/pillar.JPG" alt="Luvdrive Models">
-                                                    <div class="subsection-overlay-text">Luvdrive Models</div>
+                                                    <img src="imgs/3DD/trinkets/pillar.JPG" alt="3D Caterpillar Furrybones" data-lightbox="trinkets" data-index="0">
+                                                    <div class="subsection-overlay-text">3D Caterpillar Furrybones</div>
                                                 </div>
                                                 <div class="subsection-item">
-                                                    <img src="imgs/3DD/crashoverride/coNEW.png" alt="Crash Override Models">
-                                                    <div class="subsection-overlay-text">Crash Override Models</div>
+                                                    <img src="imgs/3DD/trinkets/monkee.JPG" alt="3D Monkey Keychain" data-lightbox="trinkets" data-index="1">
+                                                    <div class="subsection-overlay-text">3D Monkey Keychain</div>
                                                 </div>
                                                 <div class="subsection-item">
-                                                    <img src="imgs/3DD/wiiDog copy 2.png" alt="Misc 3D">
-                                                    <div class="subsection-overlay-text">Misc</div>
+                                                    <img src="imgs/3DD/trinkets/hex.JPG" alt="3D Hexbug" data-lightbox="trinkets" data-index="2">
+                                                    <div class="subsection-overlay-text">3D Hexbug</div>
                                                 </div>
                                             </div>
                                             <div class="image-row">
                                                 <div class="subsection-item">
-                                                    <img src="imgs/3DD/moonstruck/MS4.2.png" alt="Show All">
-                                                    <div class="subsection-overlay-text">Show All</div>
+                                                    <img src="imgs/3DD/trinkets/fly1.JPG" alt="3D Dragonfly Furrybones" data-lightbox="trinkets" data-index="3">
+                                                    <div class="subsection-overlay-text">3D Dragonfly Furrybones</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/trinkets/idog.JPG" alt="3D iDog" data-lightbox="trinkets" data-index="4">
+                                                    <div class="subsection-overlay-text">3D iDog</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/trinkets/peng.JPG" alt="3D Penguin Furrybones" data-lightbox="trinkets" data-index="5">
+                                                    <div class="subsection-overlay-text">3D Penguin Furrybones</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/trinkets/balloonDog.JPG" alt="3D Balloon Dog" data-lightbox="trinkets" data-index="6">
+                                                    <div class="subsection-overlay-text">3D Balloon Dog</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/trinkets/bro.JPG" alt="3D Toy" data-lightbox="trinkets" data-index="7">
+                                                    <div class="subsection-overlay-text">3D Toy</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/trinkets/fish.JPG" alt="3D Fish Furrybones" data-lightbox="trinkets" data-index="8">
+                                                    <div class="subsection-overlay-text">3D Fish Furrybones</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/LDR8.png" alt="Bedroom Shelf" data-lightbox="trinkets" data-index="12">
+                                                    <div class="subsection-overlay-text">3D Bedroom Shelf</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/LDR10.png" alt="Dining Area" data-lightbox="trinkets" data-index="13">
+                                                    <div class="subsection-overlay-text">3D Dining Area</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/luvdrive.png" alt="Living Room & Dining Area" data-lightbox="trinkets" data-index="14">
+                                                    <div class="subsection-overlay-text">3D Living Room & Dining Area</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/LDR5.png" alt="Kitchen" data-lightbox="trinkets" data-index="10">
+                                                    <div class="subsection-overlay-text">3D Kitchen</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/LDR7.png" alt="Kitchen" data-lightbox="trinkets" data-index="11">
+                                                    <div class="subsection-overlay-text">3D Kitchen</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/LDR4.png" alt="Bedroom" data-lightbox="trinkets" data-index="15">
+                                                    <div class="subsection-overlay-text">3D Bedroom</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/LDR16.png" alt="Living Room" data-lightbox="trinkets" data-index="16">
+                                                    <div class="subsection-overlay-text">3D Living Room</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/luvdrive/LDR12.png" alt="Living Room" data-lightbox="trinkets" data-index="17">
+                                                    <div class="subsection-overlay-text">3D Living Room</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/sky.png" alt="3D Cityscape" data-lightbox="crashoverride" data-index="2">
+                                                    <div class="subsection-overlay-text">3D Cityscape</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/buggieieie.png" alt="Player Character" data-lightbox="crashoverride" data-index="3">
+                                                    <div class="subsection-overlay-text">3D Player Character</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/coNew.png" alt="Title Screen" data-lightbox="crashoverride" data-index="0">
+                                                    <div class="subsection-overlay-text">3D Title Screen</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/map2.png" alt="3D City Buildings" data-lightbox="crashoverride" data-index="1">
+                                                    <div class="subsection-overlay-text">3D City Buildings</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/map3.png" alt="City Buildings" data-lightbox="environment" data-index="19">   
+                                                    <div class="subsection-overlay-text">3D City Buildings</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/map1.png" alt="3D City Buildings" data-lightbox="crashoverride" data-index="7">
+                                                    <div class="subsection-overlay-text">3D City Buildings</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/device.png" alt="3D Device" data-lightbox="crashoverride" data-index="6">
+                                                    <div class="subsection-overlay-text">3D Device</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/uiFull.png" alt="UI Design" data-lightbox="crashoverride" data-index="5">
+                                                    <div class="subsection-overlay-text">3D UI Design</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/fly.png" alt="Player Character" data-lightbox="crashoverride" data-index="4">
+                                                    <div class="subsection-overlay-text">3D Player Character</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/map04.png" alt="City Buildings" data-lightbox="environment" data-index="9">
+                                                    <div class="subsection-overlay-text">3D City Buildings</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/C0Zero2.png" alt="Player Character" data-lightbox="environment" data-index="10">
+                                                    <div class="subsection-overlay-text">3D Player Character</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/bugFLY.png" alt="Player Character" data-lightbox="environment" data-index="18">   
+                                                    <div class="subsection-overlay-text">3D Player Character</div>
+                                                </div>
+                                                 <div class="subsection-item">
+                                                    <img src="imgs/3DD/crashOverride/coinNEW.png" alt="Coin" data-lightbox="environment" data-index="20">                       
+                                                    <div class="subsection-overlay-text">3D Coin</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -506,13 +629,21 @@ document.addEventListener('DOMContentLoaded', function() {
                                                     </a>
                                                 </div>
                                             </div>
+                                            <div class="image-row full-width-row">
+                                                <div class="subsection-item full-width-item">
+                                                    <a href="https://bugswillbite.itch.io/decorate-my-room" target="_blank">
+                                                        <img src="imgs/cover2.png" alt="Decorate My Room!">
+                                                        <div class="subsection-overlay-text">Decorate My Room!</div>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="file-folder">
                                 <div class="folder-tab" data-folder="physical-media-all">
-                                    <h3>Physical Media</h3>
+                                    <h3>Painting</h3>
                                     <span class="folder-icon">+</span>
                                 </div>
                                 <div class="folder-content" id="physical-media-all-folder">
@@ -520,22 +651,470 @@ document.addEventListener('DOMContentLoaded', function() {
                                         <div class="image-gallery subsection-gallery">
                                             <div class="image-row">
                                                 <div class="subsection-item">
-                                                    <img src="imgs/physical/painting/paint final 2023_icon.png" alt="Painting">
-                                                    <div class="subsection-overlay-text">Painting</div>
+                                                    <img src="imgs/physical/painting/Brother in Thought 2020 copy 2.JPEG" alt="Brothers in Thought [2020, Acrylic on Wood]" data-lightbox="painting" data-index="0">
+                                                    <div class="subsection-overlay-text">Brothers in Thought, 2020</div>
+                                                </div>
+                                            </div>    
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/CW2.png" alt="Cave Woman [2021, Oil on Canvas]" data-lightbox="painting" data-index="1">
+                                                    <div class="subsection-overlay-text">Cave Woman, 2021</div>
                                                 </div>
                                                 <div class="subsection-item">
-                                                    <img src="imgs/physical/sculpt/C1icon.jpg" alt="Sculpture">
-                                                    <div class="subsection-overlay-text">Sculpture</div>
+                                                    <img src="imgs/physical/painting/face copy.jpg" alt="Face [2024, Acrylic on Paper]" data-lightbox="painting" data-index="2">
+                                                    <div class="subsection-overlay-text">Face, 2024</div>
                                                 </div>
                                                 <div class="subsection-item">
-                                                    <img src="imgs/physical/drawing/space woman 2020 copy.jpeg" alt="Drawing & Illustration">
-                                                    <div class="subsection-overlay-text">Drawing & Illustration</div>
+                                                    <img src="imgs/physical/painting/Hand Head Baby 2021.jpg" alt="Hand Head Baby [2021, Acrylic on Paper]" data-lightbox="painting" data-index="3">
+                                                    <div class="subsection-overlay-text">Hand Head Baby, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/Melora 2020 copy.jpg" alt="Melora [2020, Oil on Canvas]" data-lightbox="painting" data-index="4">
+                                                    <div class="subsection-overlay-text">Melora, 2020</div>
                                                 </div>
                                             </div>
                                             <div class="image-row">
                                                 <div class="subsection-item">
-                                                    <img src="imgs/physical/painting/Brother in Thought 2020 copy 2.JPEG" alt="More/See All">
-                                                    <div class="subsection-overlay-text">More/See All</div>
+                                                    <img src="imgs/physical/painting/duckIcon.jpg" alt="Duck [2020, Acrylic on Canvas]" data-lightbox="painting" data-index="5">
+                                                    <div class="subsection-overlay-text">Duck, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/PFCL.jpg" alt="Untitled [2023]" data-lightbox="painting" data-index="6">
+                                                    <div class="subsection-overlay-text">Untitled, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/figure1 2023 copy.jpg" alt="Figure [2023, Acrylic on Paper]" data-lightbox="painting" data-index="7">
+                                                    <div class="subsection-overlay-text">Figure, 2023</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">    
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/figure 2023 copy.jpg" alt="Figure [2023, Acrylic on Paper]" data-lightbox="painting" data-index="8">
+                                                    <div class="subsection-overlay-text">Figure, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/Holding Head Hands 2021.jpg" alt="Holding Head Hands [2021, Acrylic on Paper]" data-lightbox="painting" data-index="9">
+                                                    <div class="subsection-overlay-text">Holding Head Hands, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/Head Hold 2021.jpeg" alt="Untitled [2021, Acrylic on Canvas]" data-lightbox="painting" data-index="10">
+                                                    <div class="subsection-overlay-text">Head Hold, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/yawn.png" alt="Yawn [2021, Acrylic on Paper]" data-lightbox="painting" data-index="11">
+                                                    <div class="subsection-overlay-text">Yawn, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/summer face 2023 copy.jpg" alt="Summer Face [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="12">   
+                                                    <div class="subsection-overlay-text">Summer Face, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/Skull 2022 copy2.png" alt="Skull [2022, Oil on Canvas]" data-lightbox="painting" data-index="13">
+                                                    <div class="subsection-overlay-text">Skull, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/blue.jpg" alt="The Blue Woman [2020, Acrylic on Canvas]" data-lightbox="painting" data-index="14">
+                                                    <div class="subsection-overlay-text">The Blue Woman, 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/Self Portrait 2019 copy.jpg" alt="Self Portrait [2019, Acrylic on Wood]" data-lightbox="painting" data-index="15">
+                                                    <div class="subsection-overlay-text">Self Portrait, 2019</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/figure2 2023 copy.JPG" alt="Figure [2023, Acrylic on Paper]" data-lightbox="painting" data-index="16">                           
+                                                    <div class="subsection-overlay-text">Figure, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/figure3 2023 copy.JPG" alt="Figure [2023, Acrylic on Paper]" data-lightbox="painting" data-index="17">
+                                                    <div class="subsection-overlay-text">Figure, 2023</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/momMain.png" alt="Mom [2020, Acrylic on Canvas]" data-lightbox="painting" data-index="18">
+                                                    <div class="subsection-overlay-text">Mom, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/screamBoy copy.png" alt="Scream Boy [2020, Acrylic on Canvas]" data-lightbox="painting" data-index="19">
+                                                    <div class="subsection-overlay-text">Scream Boy, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/face.jpeg" alt="Face [2023, Acrylic on Paper]" data-lightbox="painting" data-index="20">
+                                                    <div class="subsection-overlay-text">Face, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/Untitled 2021.jpg" alt="Untitled [2021, Acrylic on Paper]" data-lightbox="painting" data-index="21">
+                                                    <div class="subsection-overlay-text">Untitled, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/Tallulah.jpg" alt="Tallulah [2020, Acrylic on Wood]" data-lightbox="painting" data-index="22">
+                                                    <div class="subsection-overlay-text">Tallulah, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/meltingMan.jpg" alt="Melting Man [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="23">
+                                                    <div class="subsection-overlay-text">Melting Man, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/smile.jpeg" alt="Smile [2023, Acrylic on Paper]" data-lightbox="painting" data-index="24">
+                                                    <div class="subsection-overlay-text">Smile, 2023</div>
+                                                </div>
+                                            </div>    
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/tori.png" alt="Tori [2021, Oil on Canvas]" data-lightbox="painting" data-index="25">
+                                                    <div class="subsection-overlay-text">Tori, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/squishyMain copy.png" alt="Untitled [2020, Acrylic on Canvas]" data-lightbox="painting" data-index="26">
+                                                    <div class="subsection-overlay-text">Untitled, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/maxBday.png" alt="Happy Birthday Max [2022, Acrylic on Paper]" data-lightbox="painting" data-index="27">    
+                                                    <div class="subsection-overlay-text">Happy Birthday Max, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/body1.png" alt="Untitled [2021, Acrylic on Canvas]" data-lightbox="painting" data-index="28">
+                                                    <div class="subsection-overlay-text">Untitled, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/edwardCRT.jpeg" alt="Edward Scizzorhands [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="29">    
+                                                    <div class="subsection-overlay-text">Edward Scizzorhands, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/chameleon.jpg" alt="Chameleon [2023, Acrylic on Paper]" data-lightbox="painting" data-index="30">    
+                                                    <div class="subsection-overlay-text">Chameleon, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/roach.jpg" alt="Cockroach [2023, Acrylic on Paper]" data-lightbox="painting" data-index="31">    
+                                                    <div class="subsection-overlay-text">Cockroach, 2023</div>
+                                                </div>
+                                            </div> 
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/scream.jpeg" alt="Scream [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="32">    
+                                                    <div class="subsection-overlay-text">Scream, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/flowers.jpg" alt="Flowers [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="33">
+                                                    <div class="subsection-overlay-text">Flowers, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/bjork.jpg" alt="Bjork [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="34">    
+                                                    <div class="subsection-overlay-text">Bjork, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/body.jpg" alt="Body [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="35">
+                                                    <div class="subsection-overlay-text">Body, 2023</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/cat.jpeg" alt="Cat [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="36">    
+                                                    <div class="subsection-overlay-text">Cat, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/snail.jpg" alt="Snail [2023, Acrylic on Paper]" data-lightbox="painting" data-index="37">    
+                                                    <div class="subsection-overlay-text">Snail, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/self2023.jpg" alt="Self Portrait [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="38">    
+                                                    <div class="subsection-overlay-text">Self Portrait, 2023</div>
+                                                </div>
+                                            </div> 
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/orange.jpg" alt="Orange Man [2020, Oil on Canvas]" data-lightbox="painting" data-index="39">    
+                                                    <div class="subsection-overlay-text">Orange Man, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/clady.jpg" alt="Clady [2023, Acrylic and Clay on Canvas]" data-lightbox="painting" data-index="40">
+                                                    <div class="subsection-overlay-text">Clady, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/eyeLik.jpg" alt="Eye Lick [2021, Acrylic on Paper]" data-lightbox="painting" data-index="41">    
+                                                    <div class="subsection-overlay-text">Eye Lick, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/painting/red.jpg" alt="Untitled [2023, Spray Paint on Paper]" data-lightbox="painting" data-index="42">
+                                                    <div class="subsection-overlay-text">Untitled, 2023</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="file-folder">
+                                <div class="folder-tab" data-folder="sculpture-all">
+                                    <h3>Sculpture</h3>
+                                    <span class="folder-icon">+</span>
+                                </div>
+                                <div class="folder-content" id="sculpture-all-folder">
+                                    <div class="folder-inner">
+                                        <div class="image-gallery subsection-gallery threed-horiz">
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/lamp.jpeg" alt="Lamp [2020, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="0">
+                                                    <div class="subsection-overlay-text">Lamp, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/LAMP2.jpeg" alt="Lamp [2020, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="1">
+                                                    <div class="subsection-overlay-text">Lamp, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/LAMP5.jpeg" alt="Lamp [2020, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="2">
+                                                    <div class="subsection-overlay-text">Lamp, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/LAMP3.jpeg" alt="Lamp [2020, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="3">
+                                                    <div class="subsection-overlay-text">Lamp, 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/Bunny Worm 2021 copy.jpg" alt="Bunny Worm [2022, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="4">
+                                                    <div class="subsection-overlay-text">Bunny Worm, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/bunny2.jpg" alt="Bunny Worm [2022, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="5">
+                                                    <div class="subsection-overlay-text">Bunny Worm, 2022</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/C1one.jpg" alt="Creature [2021, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="6">
+                                                    <div class="subsection-overlay-text">Monster 01, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/C1two.jpg" alt="Creature [2021, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="7">
+                                                    <div class="subsection-overlay-text">Monster 01, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/C2one.jpg" alt="Creature [2021, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="8">
+                                                    <div class="subsection-overlay-text">Monster 02, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/C2two.jpg" alt="Creature [2021, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="9">
+                                                    <div class="subsection-overlay-text">Monster 02, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/C2three.jpg" alt="Creature [2021, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="10">
+                                                    <div class="subsection-overlay-text">Monster 02, 2022</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/Tetsuo 1 2021.jpg" alt="Tetsuo [2021, Found Object Kinetic Sculpture]" data-lightbox="sculpture" data-index="11">
+                                                    <div class="subsection-overlay-text">Tetsuo, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/Tetsuo 2 2021.png" alt="Tetsuo [2021, Found Object Kinetic Sculpture]" data-lightbox="sculpture" data-index="12">
+                                                    <div class="subsection-overlay-text">Tetsuo, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/VGG1.jpg" alt="Vomit Gore Guy [2022, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="13">
+                                                    <div class="subsection-overlay-text">Vomit Gore Guy, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/Vomit Gore Guy 2 2021.jpg" alt="Vomit Gore Guy 2 [2021, Found Object & Clay Sculpture]" data-lightbox="sculpture" data-index="14">
+                                                    <div class="subsection-overlay-text">Vomit Gore Guy 2, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/3dEYE1.jpeg" alt="3D Eye Man [2020, Clay & Found Object Sculpture]" data-lightbox="sculpture" data-index="15">
+                                                    <div class="subsection-overlay-text">3D Eye Man, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/3dEYE2.jpeg" alt="3D Eye Man [2020, Clay & Found Object Sculpture]" data-lightbox="sculpture" data-index="16">
+                                                    <div class="subsection-overlay-text">3D Eye Man, 2020</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/fabricLady1.jpg" alt="Fabric Lady [2022, Fabric Sculpture]" data-lightbox="sculpture" data-index="17">
+                                                    <div class="subsection-overlay-text">Fabric Lady, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/fabricLady2.jpg" alt="Fabric Lady [2022, Fabric Sculpture]" data-lightbox="sculpture" data-index="18">
+                                                    <div class="subsection-overlay-text">Fabric Lady, 2022</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/BH2.jpg" alt="Bella Haus [2023, Plaster Sculpture]" data-lightbox="sculpture" data-index="19">
+                                                    <div class="subsection-overlay-text">Bella Haus, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/BH1.jpg" alt="Bella Haus [2023, Plaster Sculpture]" data-lightbox="sculpture" data-index="20">
+                                                    <div class="subsection-overlay-text">Bella Haus, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/BH3.jpg" alt="Bella Haus [2023, Plaster Sculpture]" data-lightbox="sculpture" data-index="21">
+                                                    <div class="subsection-overlay-text">Bella Haus, 2023</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/TRY1.jpg" alt="Trypophobia [2021, Latex Sculpture]" data-lightbox="sculpture" data-index="22">
+                                                    <div class="subsection-overlay-text">Trypophobia, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/TRY2.jpg" alt="Trypophobia [2021, Latex Sculpture]" data-lightbox="sculpture" data-index="23">
+                                                    <div class="subsection-overlay-text">Trypophobia, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/BABYicon.jpg" alt="Siamese Baby [2021, 3D Print]" data-lightbox="sculpture" data-index="24">
+                                                    <div class="subsection-overlay-text">Siamese Baby, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/rock.jpg" alt="Unfinished, Untitled [2022, Rock Chisel]" data-lightbox="sculpture" data-index="25">
+                                                    <div class="subsection-overlay-text">Unfinished, Untitled, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/wireHead.jpg" alt="WireHead [2021, Wire & Aluminum Sculpture]" data-lightbox="sculpture" data-index="26">
+                                                    <div class="subsection-overlay-text">WireHead, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/pillow.jpg" alt="Intestinal Pillow [2022, Fabric & Yarn Sculpture]" data-lightbox="sculpture" data-index="27">
+                                                    <div class="subsection-overlay-text">Intestinal Pillow, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/Sleeper 2021.jpg" alt="Sleeper [2021, Clay Sculpture]" data-lightbox="sculpture" data-index="28">
+                                                    <div class="subsection-overlay-text">Sleeper, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/sculpt/Smoker 2021.jpg" alt="Smoker [2021, Clay Sculpture]" data-lightbox="sculpture" data-index="29">
+                                                    <div class="subsection-overlay-text">Smoker, 2021</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="file-folder">
+                                <div class="folder-tab" data-folder="drawing-all">
+                                    <h3>Drawing</h3>
+                                    <span class="folder-icon">+</span>
+                                </div>
+                                <div class="folder-content" id="drawing-all-folder">
+                                    <div class="folder-inner">
+                                        <div class="image-gallery subsection-gallery threed-horiz">
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/bella - ink 200101-3.png" alt="Stipling Snail [2018, Ink]" data-lightbox="drawing" data-index="0">
+                                                    <div class="subsection-overlay-text">Stipling Snail, 2018</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/mom.jpg" alt="Mom [2023, Ink]" data-lightbox="drawing" data-index="1">
+                                                    <div class="subsection-overlay-text">Mom, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/rats.jpeg" alt="Rats [2023, Ink]" data-lightbox="drawing" data-index="2">
+                                                    <div class="subsection-overlay-text">Rats, 2023</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/punk.jpg" alt="Punk Girl [2022, Ink & Marker]" data-lightbox="drawing" data-index="3">
+                                                    <div class="subsection-overlay-text">Punk Girl, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/stand.jpeg" alt="Stand [2023, Ink]" data-lightbox="drawing" data-index="4">
+                                                    <div class="subsection-overlay-text">Stand, 2023</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/whome.jpeg" alt="Who Me? [2022, Ink & Marker]" data-lightbox="drawing" data-index="5">
+                                                    <div class="subsection-overlay-text">Who Me?, 2022</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/kiss2.jpeg" alt="Kiss [2024, Ink]" data-lightbox="drawing" data-index="6">
+                                                    <div class="subsection-overlay-text">Kiss, 2024</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/2manblue2019.png" alt="Two Man Blue [2019, Ink & Marker]" data-lightbox="drawing" data-index="7">
+                                                    <div class="subsection-overlay-text">Two Man Blue, 2019</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/2019fish.png" alt="Fish House [2019, Ink & Marker]" data-lightbox="drawing" data-index="8">
+                                                    <div class="subsection-overlay-text">Fish House, 2019</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/2019heart.png" alt="Heart Man [2019, Ink]" data-lightbox="drawing" data-index="9">
+                                                    <div class="subsection-overlay-text">Heart Man, 2019</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/space woman 2020 copy.jpeg" alt="Space Woman [2020, Pastel on Wood]" data-lightbox="drawing" data-index="10">
+                                                    <div class="subsection-overlay-text">Space Woman, 2020</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/drawing/greenPastel2.png" alt="Alien Smoker [2020, Pastel and Acrylic on Cardboard]" data-lightbox="drawing" data-index="11">
+                                                    <div class="subsection-overlay-text">Alien Smoker, 2020</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="file-folder">
+                                <div class="folder-tab" data-folder="screenprints-all">
+                                    <h3>Screen Printing & More</h3>
+                                    <span class="folder-icon">+</span>
+                                </div>
+                                <div class="folder-content" id="screenprints-all-folder">
+                                    <div class="folder-inner">
+                                        <div class="image-gallery subsection-gallery threed-horiz">
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/screenPrint/ScreenPrint1.jpg" alt="LEGS Screen Print [2021, Silkscreen Print]" data-lightbox="drawing" data-index="12">
+                                                    <div class="subsection-overlay-text">LEGS, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/screenPrint/ScreenPrint2.jpg" alt="LEGS Screen Print [2021, Silkscreen Print]" data-lightbox="drawing" data-index="13">
+                                                    <div class="subsection-overlay-text">LEGS, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/screenPrint/ScreenPrint3.jpg" alt="LEGS Screen Print [2021, Silkscreen Print]" data-lightbox="drawing" data-index="14">
+                                                    <div class="subsection-overlay-text">LEGS, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/screenPrint/ScreenPrint4.jpg" alt="LEGS Screen Print [2021, Silkscreen Print]" data-lightbox="drawing" data-index="15">
+                                                    <div class="subsection-overlay-text">LEGS, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/screenPrint/ScreenPrint6.jpg" alt="LEGS Screen Print [2021, Silkscreen Print]" data-lightbox="drawing" data-index="16">
+                                                    <div class="subsection-overlay-text">LEGS, 2021</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/screenPrint/ScreenPrint5.jpg" alt="LEGS Screen Print [2021, Silkscreen Print]" data-lightbox="drawing" data-index="17">
+                                                    <div class="subsection-overlay-text">LEGS, 2021</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/physical/laser.png" alt="Amoeba Love-Making [2021, Laser Cut]" data-lightbox="drawing" data-index="18">
+                                                    <div class="subsection-overlay-text">Amoeba Love-Making, 2021, Laser Cut</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1091,6 +1670,14 @@ document.addEventListener('DOMContentLoaded', function() {
                                     </a>
                                 </div>
                             </div>
+                            <div class="image-row full-width-row">
+                                <div class="subsection-item full-width-item">
+                                    <a href="https://bugswillbite.itch.io/decorate-my-room" target="_blank">
+                                        <img src="imgs/cover2.png" alt="Decorate My Room!">
+                                        <div class="subsection-overlay-text">Decorate My Room!</div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         
                         <h3>Top Skills</h3>
@@ -1427,7 +2014,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <img src="imgs/physical/painting/figure 2023 copy.jpg" alt="Figure [2023, Acrylic on Paper]" data-lightbox="painting" data-index="8">
                                 <img src="imgs/physical/painting/Holding Head Hands 2021.jpg" alt="Holding Head Hands [2021, Acrylic on Paper]" data-lightbox="painting" data-index="9">
                                 <img src="imgs/physical/painting/Head Hold 2021.jpeg" alt="Untitled [2021, Acrylic on Canvas]" data-lightbox="painting" data-index="10">
-                                <img src="imgs/physical/painting/yawn.png" alt="Figure [2023, Acrylic on Paper]" data-lightbox="painting" data-index="11">
+                                <img src="imgs/physical/painting/yawn.png" alt="Yawn [2021, Acrylic on Paper]" data-lightbox="painting" data-index="11">
                             </div>
                             <div class="image-row sq2">    
                                 <img src="imgs/physical/painting/summer face 2023 copy.jpg" alt="Summer Face [2023, Acrylic on Canvas]" data-lightbox="painting" data-index="12">   
