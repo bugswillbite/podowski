@@ -1055,7 +1055,7 @@ h5:nth-of-type(1).title4gallery {
     padding: 0 20px;
 }
 .folder-content.active {
-    max-height: 600px; 
+    max-height: 8000px; 
     padding: 20px;
 }
 .folder-inner h4 {
@@ -1063,7 +1063,7 @@ h5:nth-of-type(1).title4gallery {
     font-family: "JetBrains Mono", monospace;
     font-size: 14px;
     margin: 15px 0 8px 0;
-    border-bottom: 1px solid var(--orange);
+    /* border-bottom: 1px solid var(--orange); */
     padding-bottom: 4px;
 }
 .folder-inner h4:first-child {
