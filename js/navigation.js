@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                         
                                         <h4>Game Development & 3D Modelling</h4>
                                         <ul>
-                                            <li><a href="https://bugswillbite.itch.io/crashoverride" target="_blank">Crash Override - 3D Skateboarding Game</a></li>
+                                            <li><a href="https://bugswillbite.itch.io/crashOverride" target="_blank">Crash Override - 3D Skateboarding Game</a></li>
                                             <li><a href="https://bugswillbite.itch.io/luvdrive" target="_blank">LuvDrive - Interactive 3D Environment</a></li>
                                             <li><a href="https://bugswillbite.itch.io/mysa" target="_blank">MYSA - Narrative HTML Game</a></li>
                                         </ul>
