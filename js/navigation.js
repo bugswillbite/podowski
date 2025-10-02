@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="contact-info">
                             <h3>Contact Information</h3>
                             <p><strong>Email:</strong> bella.podowski@gmail.com</p>
-                            <p><strong>Location:</strong> Rochester, NY. Available for remote work.</p>
+                            <p><strong>Location:</strong> Upstate NY. Available for remote work.</p>
                         </div>
                         
                         <div class="contact-form">
