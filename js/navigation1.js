@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 </div>
                             </div>
                         
-                            <br>
+                            <br><br>
                              <div class="file-folder">
                                 <div class="folder-tab" data-folder="education">
                                     <h3>Education & Experience</h3>
