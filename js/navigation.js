@@ -1312,7 +1312,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <div class="subsection-overlay-text">Source Code Camera</div>
                                 </div>
                                 <div class="subsection-item">
-                                    <img src="imgs/graphicdesign/towhead hands.png" alt="Towhead Poster Design - Hands" data-lightbox="graphic-design" data-index="6" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                    <img src="imgs/graphicdesign/towhead hands.png" alt="Towhead Poster Design - Hands" data-lightbox="graphic-design" data-index="5" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
                                     <div class="subsection-overlay-text">Towhead Poster Design</div>
                                 </div>
                             </div>
@@ -1330,7 +1330,21 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <div class="subsection-overlay-text">Devin. Schubas iPod Poster</div>
                                 </div>
                             </div>
-                        </div>
+                            <h3>SWEA San Francisco Design 2025</h3>
+                            <div class="image-row"> 
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/xmas2025.png" alt="SWEA Christmas Fair Flyer" data-lightbox="graphic-design" data-index="9" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">SWEA Christmas Fair Flyer</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/header.png" alt="SWEA Christmas Fair Header" data-lightbox="graphic-design" data-index="10" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">SWEA Christmas Fair Header</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/logo.JPG" alt="SWEA Fair logo" data-lightbox="graphic-design" data-index="11" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">SWEA Fair Logo</div>
+                                </div>
+                            </div>
                         
                         <h3>Top Skills</h3>
                         <ul>
