@@ -240,8 +240,92 @@ document.addEventListener('DOMContentLoaded', function() {
                                     </div>
                                 </div>
                                 <br>
-                            
                             <div class="file-folder">
+                                <div class="folder-tab" data-folder="graphic-design-all">
+                                    <h3>Graphic Design</h3>
+                                    <span class="folder-icon">+</span>
+                                </div>
+                                <div class="folder-content" id="graphic-design-all-folder">
+                                    <div class="folder-inner">
+                                        <div class="image-gallery subsection-gallery lightbox-gallery">
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/towheadFish.png" alt="Towhead Poster Design" data-lightbox="graphic-design" data-index="0" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/ZeroCool copy.jpg" alt="Zero Cool Album Cover" data-lightbox="graphic-design" data-index="1" data-external-link="https://theprophitt.bandcamp.com/album/zero-cool">
+                                                    <div class="subsection-overlay-text">Prophitt Album Cover</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/front-bizcard copy.png" alt="Source Code Vintage Business Card" data-lightbox="graphic-design" data-index="2" data-external-link="https://binaryswag.club/#contact">
+                                                    <div class="subsection-overlay-text">Source Code Vintage Business Card</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/proph.png" alt="Prophitt Poster Design" data-lightbox="graphic-design" data-index="3">
+                                                    <div class="subsection-overlay-text">Prophitt Promo Poster</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/scc.png" alt="Source Code Camera" data-lightbox="graphic-design" data-index="4">
+                                                    <div class="subsection-overlay-text">Source Code Camera</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/towhead hands.png" alt="Towhead Poster Design - Hands" data-lightbox="graphic-design" data-index="6" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/towhead.png" alt="Towhead Poster Design - Zendeya" data-lightbox="graphic-design" data-index="6" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/towhead mouth.PNG" alt="Towhead Poster Design - Mouth" data-lightbox="graphic-design" data-index="7" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/ipod.png" alt="Devin. Schubas iPod Poster" data-lightbox="graphic-design" data-index="8">
+                                                    <div class="subsection-overlay-text">Devin. Schubas iPod Poster</div>
+                                                </div>
+                                            </div>
+                                            <h3><a href="#">SWEA San Francisco 2025 Graphic Design:</a></h3>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/xmas2025.png" alt="SWEA Flyer" data-lightbox="graphic-design" data-index="9" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">SWEA Flyer</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/header.png" alt="SWEA Header" data-lightbox="graphic-design" data-index="10" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">SWEA Header</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/banner.png" alt="SWEA Banner" data-lightbox="graphic-design" data-index="11">
+                                                    <div class="subsection-overlay-text">SWEA Banner</div>
+                                                </div>
+                                            </div>
+                                            <div class="image-row">
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/logo.JPG" alt="SWEA Logo/Sticker" data-lightbox="graphic-design" data-index="12" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">SWEA Logo/Sticker</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/restroom.png" alt="SWEA Restroom Sign" data-lightbox="graphic-design" data-index="13" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
+                                                    <div class="subsection-overlay-text">SWEA Restroom Sign</div>
+                                                </div>
+                                                <div class="subsection-item">
+                                                    <img src="imgs/graphicdesign/glogg.png" alt="SWEA Glögg Ingredients" data-lightbox="graphic-design" data-index="14">
+                                                    <div class="subsection-overlay-text">SWEA Glögg Ingredients</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            
+                             <div class="file-folder">
                                 <div class="folder-tab" data-folder="education">
                                     <h3>Education & Experience</h3>
                                     <span class="folder-icon">+</span>
@@ -265,6 +349,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                         
                                     </div>
                                 </div>
+                            
                             </div>
                         </div>
                     </div>
