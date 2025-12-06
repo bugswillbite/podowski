@@ -124,19 +124,18 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="file-folders">
                             <div class="file-folder">
                                 <div class="folder-tab" data-folder="portfolio">
-                                    <h3>Graphic Design</h3>
+                                   <h3>Graphic Design</h3>
                                     <span class="folder-icon">+</span>
                                 </div>
                                 <div class="folder-content" id="portfolio-folder">
                                     <div class="folder-inner">
                                         <div class="text-content" id="portfolio-content">
                                             <embed src="portfolio.pdf" type="application/pdf" width="100%" height="600px" />
-                        
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        <div class="file-folders">
+                            
                             <div class="file-folder">
                                 <div class="folder-tab" data-folder="programming">
                                     <h3>Programming Projects</h3>
