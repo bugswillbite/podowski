@@ -35,7 +35,7 @@ footer div.margin {
 }
 div.margin.left {
     width: 5px;
-    margin-left: -15px;
+    margin-left: 0px;
 }
 div.margin.left.bottom {
     margin-left: -10px;
