@@ -1317,30 +1317,12 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="image-row">
                                 <div class="subsection-item">
-                                    <img src="imgs/graphicdesign/proph.png" alt="Prophitt Poster Design" data-lightbox="graphic-design" data-index="3">
-                                    <div class="subsection-overlay-text">Prophitt Promo Poster</div>
-                                </div>
-                                <div class="subsection-item">
-                                    <img src="imgs/graphicdesign/scc.png" alt="Source Code Camera" data-lightbox="graphic-design" data-index="4">
-                                    <div class="subsection-overlay-text">Source Code Camera</div>
-                                </div>
-                                <div class="subsection-item">
                                     <img src="imgs/graphicdesign/towhead hands.png" alt="Towhead Poster Design - Hands" data-lightbox="graphic-design" data-index="5" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
-                                    <div class="subsection-overlay-text">Towhead Poster Design</div>
-                                </div>
-                            </div>
-                            <div class="image-row">
-                                <div class="subsection-item">
-                                    <img src="imgs/graphicdesign/towhead.png" alt="Towhead Poster Design - Zendeya" data-lightbox="graphic-design" data-index="6" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
                                     <div class="subsection-overlay-text">Towhead Poster Design</div>
                                 </div>
                                 <div class="subsection-item">
                                     <img src="imgs/graphicdesign/towhead mouth.PNG" alt="Towhead Poster Design - Mouth" data-lightbox="graphic-design" data-index="7" data-external-link="https://www.instagram.com/p/C9K5p_CODT3">
                                     <div class="subsection-overlay-text">Towhead Poster Design</div>
-                                </div>
-                                <div class="subsection-item">
-                                    <img src="imgs/graphicdesign/ipod.png" alt="Devin. Schubas iPod Poster" data-lightbox="graphic-design" data-index="8">
-                                    <div class="subsection-overlay-text">Devin. Schubas iPod Poster</div>
                                 </div>
                             </div>
                             <h3>SWEA San Francisco Design 2025</h3>
@@ -1356,6 +1338,49 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <div class="subsection-item">
                                     <img src="imgs/graphicdesign/logo.JPG" alt="SWEA Fair logo" data-lightbox="graphic-design" data-index="11" data-external-link="https://binaryswag.club/#contact">
                                     <div class="subsection-overlay-text">SWEA Fair Logo</div>
+                                </div>
+                            </div>
+                            <h3>Source Code Vintage</h3>
+                            <div class="image-row"> 
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/comic.png" alt="Comic Resistance" data-lightbox="graphic-design" data-index="12" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Comic Resistance</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/dud.png" alt="Do You Still Dream?" data-lightbox="graphic-design" data-index="13" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Do You Still Dream?</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/hdyc.png" alt="How Do You Connect?" data-lightbox="graphic-design" data-index="14" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">How Do You Connect?</div>
+                                </div>
+                            </div>
+                            <div class="image-row"> 
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/flyer.png" alt="Genuine People" data-lightbox="graphic-design" data-index="12" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Genuine People</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/shield.png" alt="Shield Yourself From Reality" data-lightbox="graphic-design" data-index="13" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Shield Yourself From Reality</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/trust.jpg" alt="Trust Your Technolust" data-lightbox="graphic-design" data-index="14" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Trust Your Technolust</div>
+                                </div>
+                            </div>
+                            <div class="image-row"> 
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/pink.png" alt="Do You Believe in Users?" data-lightbox="graphic-design" data-index="15" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Do You Believe in Users?</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/sword.png" alt="Swordsman" data-lightbox="graphic-design" data-index="16" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Swordsman</div>
+                                </div>
+                                <div class="subsection-item">
+                                    <img src="imgs/graphicdesign/SCV/sy.png" alt="Shield Yourself From Reality" data-lightbox="graphic-design" data-index="17" data-external-link="https://binaryswag.club/#contact">
+                                    <div class="subsection-overlay-text">Shield Yourself From Reality</div>
                                 </div>
                             </div>
                         
