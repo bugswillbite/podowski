@@ -346,6 +346,36 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <div class="folder-content" id="video-editing-all-folder">
                                     <div class="folder-inner">
                                         <div class="image-gallery subsection-gallery">
+                                           </div>
+                        <div class="image-row">
+
+                        <div class="medium-item" data-medium="video-editing">
+                            <a href="https://www.youtube.com/watch?v=XlLQM25D5hY" target="_blank">
+                            <video src="vids/operelly copy.mp4" autoplay muted loop webkit-playsinline playsinline>
+                                <source src="vids/operelly copy.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="overlay-text">Operelly Visualizer</div>
+                        </a>
+                        </div>
+
+                        <div class="medium-item" data-medium="video-editing">
+                            <a href="https://youtu.be/z2rGIHWx1rk?si=xJZjS0ImOUtddZWo" target="_blank">
+                            <video src="vids/cwr.mp4" autoplay muted loop  webkit-playsinline playsinline>
+                                <source src="vids/cwr.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="overlay-text">Cyber Worship Reality</div></a>
+                        </div>
+
+                        <div class="medium-item" data-medium="video-editing">
+                                <a href="https://www.youtube.com/watch?v=4Jkb0T4Lob8" target="_blank">
+                                <video src="vids/videoBG.mp4" autoplay muted loop  webkit-playsinline playsinline>
+                                <source src="vids/videoBG.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>              <div class="overlay-text">Unpacking.mp4</div></a>
+                        </div>
+                    </div>
                                             <div class="image-row">
                                                 <div class="medium-item">
                                                     <a href="https://www.youtube.com/watch?v=XlLQM25D5hY" target="_blank">
@@ -1282,9 +1312,39 @@ document.addEventListener('DOMContentLoaded', function() {
                         
                         <h3>Featured Projects</h3>
                         <div class="image-gallery">
-                            <div class="image-row">
+                        <div class="image-row">
 
-                        <div class="medium-item" data-medium="web-design">
+                        <div class="medium-item" data-medium="video-editing">
+                            <a href="https://youtu.be/8PnosPV0xiI" target="_blank">
+                            <video src="vids/wishI.mp4" autoplay muted loop webkit-playsinline playsinline>
+                                <source src="vids/tell2god.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="overlay-text">I Wish I Had 2 More Wishes</div>
+                        </a>
+                        </div>
+
+                        <div class="medium-item" data-medium="video-editing">
+                            <a href="https://youtu.be/vLoIYvVwu-M" target="_blank">
+                            <video src="vids/tellmeaboutu.mp4" autoplay muted loop  webkit-playsinline playsinline>
+                                <source src="vids/cwr.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="overlay-text">Tell Me A Little Bit About You</div></a>
+                        </div>
+
+                        <div class="medium-item" data-medium="video-editing">
+                                <a href="https://youtu.be/8UoznpInpvU" target="_blank">
+                            <video src="vids/tell2god.mp4" autoplay muted loop webkit-playsinline playsinline>
+                                <source src="vids/tell2god.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>              
+                            <div class="overlay-text">Try 2</div></a>
+                        </div>
+                    </div>
+                        <div class="image-row">
+
+                        <div class="medium-item" data-medium="video-editing">
                             <a href="https://www.youtube.com/watch?v=XlLQM25D5hY" target="_blank">
                             <video src="vids/operelly copy.mp4" autoplay muted loop webkit-playsinline playsinline>
                                 <source src="vids/operelly copy.mp4" type="video/mp4">
@@ -1303,7 +1363,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="overlay-text">Cyber Worship Reality</div></a>
                         </div>
 
-                        <div class="medium-item" data-medium="graphic-design">
+                        <div class="medium-item" data-medium="video-editing">
                                 <a href="https://www.youtube.com/watch?v=4Jkb0T4Lob8" target="_blank">
                                 <video src="vids/videoBG.mp4" autoplay muted loop  webkit-playsinline playsinline>
                                 <source src="vids/videoBG.mp4" type="video/mp4">
@@ -1313,7 +1373,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
 
                     <div class="image-row">
-                        <div class="medium-item" data-medium="3d-modelling">
+                        <div class="medium-item" data-medium="video-editing">
                                 <a href="https://www.youtube.com/watch?v=7plpl-A4gyM" target="_blank">
                                 <video src="vids/dbab.mp4" autoplay muted loop webkit-playsinline playsinline>
                                 <source src="vids/dbab.mp4" type="video/mp4">
@@ -1322,7 +1382,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="overlay-text">Don't Be A Body</div></a>
                         </div>
                         
-                        <div class="medium-item" data-medium="game-development">
+                        <div class="medium-item" data-medium="video-editing">
                                 <a href="https://www.youtube.com/watch?v=xanWbQJceKY&t=5s" target="_blank">
                                 <video src="vids/trinkets.mp4" autoplay muted loop webkit-playsinline playsinline>
                                 <source src="vids/trinkets.mp4" type="video/mp4">
@@ -1331,7 +1391,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="overlay-text">Trinkets</div></a>
                         </div>
 
-                        <div class="medium-item" data-medium="physical-media">
+                        <div class="medium-item" data-medium="video-editing">
                                 <a href="https://www.youtube.com/watch?v=LqJsh73PkoY" target="_blank">
                             <video src="vids/blip.mp4" autoplay muted loop webkit-playsinline playsinline>
                                 <source src="vids/blip.mp4" type="video/mp4">
