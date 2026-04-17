@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
             div.setAttribute('data-section', 'about');
         } else if (div.classList.contains('op3')) {
             div.setAttribute('data-section', 'mediums');
-        } else if (div.classList.contains('op4')) {
-            div.setAttribute('data-section', 'portfolio');
         } else if (div.classList.contains('op5')) {
             div.setAttribute('data-section', 'contact');
         } else if (div.classList.contains('op6')) {
