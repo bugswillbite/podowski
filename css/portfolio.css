@@ -349,8 +349,8 @@ main {
 /* BANNER */ 
 .container {
   width: 100%;
-  --u: 20px; 
-  --hue: hue-rotate(0deg); 
+  --u: 20px; /* change block size */
+  --hue: hue-rotate(0deg); /* change color hue*/
   --c1: #92472f;
   --c2: #d2562f;
   --c3: #ffbc58;
@@ -741,7 +741,7 @@ main {
     align-items: flex-start;
     padding: 20px;
     margin-left: -20px;
-    flex-direction: column; 
+    flex-direction: column; /* Ensure vertical stacking */
 }
 .text-box {
     background-color: #f5f1ee;
@@ -751,8 +751,8 @@ main {
     max-width: 600px;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    align-self: center; 
-  
+    align-self: center; /* Center the text box */
+}
 .text-box h2 {
     color: var(--orange);
     font-family: "JetBrains Mono", monospace;
@@ -1560,7 +1560,7 @@ main {
   display: block;        
 }
 
-/* about me section */
+/* Bento-style layout for about me section */
 body.portfolio2 .about-bento {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -1621,7 +1621,7 @@ body.portfolio2 .program-icon {
     padding: 4px;
 }
 
-/* Folder tabs */
+/* Folder tabs for featured projects */
 body.portfolio2 .folder-tabs {
     position: relative;
     background: #000;
@@ -1801,12 +1801,13 @@ body.portfolio2 .tab-content.expanded .expand-btn {
 
 .skills-inline-wrapper {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 60px;       
+  flex-wrap: wrap; /* Allows them to wrap to the next line if the screen is too small */
+  gap: 60px;       /* Creates a specific "gutter" between the two groups */
   align-items: flex-start;
 }
 
 .skills-group {
+  /* No width defined, so it only takes up as much space as the icons/text need */
   display: block;
 }
 
@@ -1816,24 +1817,25 @@ body.portfolio2 .tab-content.expanded .expand-btn {
 }
 
 .program-icon {
-  width: 32px; 
+  width: 32px; /* Adjust size as needed */
   height: auto;
 }
 
 h3 {
-  margin-bottom: 10px; 
+  margin-bottom: 10px; /* Space between title and icons */
 }
 
+/* 1. Centering the Page Content */
 body {
   margin: 0;
   display: flex;
-  justify-content: center; 
-  background-color: #f4f4f4;
+  justify-content: center; /* Centers the container horizontally */
+  background-color: #f4f4f4; /* Light grey page background */
 }
 
 .container2 {
   width: 100%;
-  max-width: 700px; 
+  max-width: 700px; /* Adjust this to your preferred feed width */
   padding: 40px 20px;
   background-color: none;;
 }
@@ -1841,7 +1843,7 @@ body {
 .gallery {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center; /* Ensures images are centered in the flex column */
   gap: 30px;
 }
 
@@ -1849,10 +1851,10 @@ body {
   width: 100%;
   cursor: pointer;
   display: block;
-  border-radius: 4px; 
+  border-radius: 4px; /* Optional: adds slightly rounded corners */
 }
 
-/* Lightbox Modal */
+/* 2. The Lightbox Modal */
 .modal {
   display: none; 
   position: fixed;
@@ -1860,7 +1862,7 @@ body {
   top: 0; left: 0;
   width: 100%; height: 100%;
   
-  background-color: #000000; 
+    background-color: #000000; 
   
   justify-content: center;
   align-items: center;
@@ -1873,7 +1875,7 @@ body {
   background-image: none !important; 
 }
 
-/* Controls */
+/* 3. Controls */
 .close, .prev, .next {
   position: absolute;
   color: white;
@@ -1892,46 +1894,55 @@ body {
   color: #bbb;
 }
 
-/* Main Container */
+/* The Main Container */
 .grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 20px;
     width: 100%;
+    /* This ensures rows only take up the space they actually need */
     grid-auto-rows: min-content; 
     align-items: start;
 }
 
-/* images */
+/* Base style for all images */
 .grid-layout .gallery-item {
     width: 100%;
+    /* For side-by-side images, we force a consistent aspect ratio 
+       so they always match height perfectly */
     aspect-ratio: 1 / 1; 
     object-fit: cover;
     display: block;
 }
 
-/* Full-Width images */
+/* Override for Full-Width images */
 .grid-layout .full-width {
     grid-column: span 2;
+    /* Reset the aspect ratio so the full painting shows 100% height */
     aspect-ratio: auto; 
     height: auto; 
-    max-height: 80vh; 
-    object-fit: contain; 
+    max-height: 80vh; /* Keeps very tall paintings from being too huge */
+    object-fit: contain; /* Shows the whole image without cropping */
+}
 
-/* LIGHTBOX */
+/* TRULY FIXED LIGHTBOX */
 .lightbox-overlay {
-    display: none; 
-    position: fixed; 
+    display: none; /* Controlled by JS */
+    position: fixed; /* Stays in the same place even when scrolling */
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.95); 
-    z-index: 9999; 
+    background-color: rgba(0, 0, 0, 0.95); /* Solid dark background */
+    z-index: 9999; /* Higher than everything else */
+    
+    /* Centering */
     justify-content: center;
     align-items: center;
-    overflow: hidden; 
+    overflow: hidden; /* Prevents the lightbox itself from scrolling */
+}
 
+/* The X Close Button */
 .close {
     position: absolute;
     top: 20px;
@@ -1977,7 +1988,7 @@ game:hover {
 }
 
 
-/* Mobile */
+/* Mobile responsiveness for portfolio2 */
 @media (max-width: 768px) {
     body.portfolio2 .about-bento {
         grid-template-columns: 1fr;
